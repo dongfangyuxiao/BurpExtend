@@ -43,10 +43,10 @@ class BurpExtender(IBurpExtender, IScannerCheck):
                 'https': 'https://127.0.0.1:1080',
             }
 
-        apikey = "1986ad8c0a5b3df4d7028d5f3c06e936c5db2384c91c9449e9ce5da2866c939ed"
+        apikey = "1986ad8c0a5b3df4d7028d5f3c06e936c5db2384c91c9449e9ce5da2866c939ed"#此处填写awvs key
         #apikey = "1986ad8c0a5b3df4d7028d5f3c06e936c0cec044fb3c540a1855732a825bb638b"
         self.awvsheaders = {"X-Auth": apikey, "content-type": "application/json"}
-        self.awvsurl = "https://118.190.206.232:3443/"
+        self.awvsurl = "https://118.190.206.232:3443/"#更换为自己的awvs地址
         #self.awvsurl = "https://192.168.184.137:13443/"
 
 
