@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/22 15:41
 # @Author  : xiaodong
-# @github  : https://github.com/dongfangyuxiao/
+# @github  : https://github.com/dongfangyuxiao/BurpExtend/
 # @Site    : #编写这个插件测试是否存在任意文件读取和下载漏洞
 # @File    : burp_LFI.py
 # @Software: PyCharm
